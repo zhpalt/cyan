@@ -1,0 +1,21 @@
+Diff
+
+At a Windows command prompt enter the commands: 
+  git config --global diff.tool bc3
+  git config --global difftool.bc3.cmd "\"c:/program files/beyond compare 3/bcomp.exe\" \"\$LOCAL\" \"\$REMOTE\""
+  git config --global difftool.prompt false
+To launch a diff with BC3, use the command "git difftool foofile.txt".
+
+
+
+3-way Merge (v3 Pro)
+
+At a Windows command prompt, enter the commands: 
+  git config --global merge.tool bc3
+  git config --global mergetool.bc3.cmd "\"c:/program files/beyond compare 3/bcomp.exe\" \"\$LOCAL\" \"\$REMOTE\" \"\$BASE\" \"\$MERGED\""
+  git config --global mergetool.bc3.trustExitCode true
+To launch a 3-way merge with BC3, use the command "git mergetool foofile.txt".
+
+
+注：必须把beyond compare安装目录加到bash的$PATH变量中，PATH="$PATH:/x/..../beyond compare 3/" export PATH。
+注2：config命令行在bash中，$必须用\$。
