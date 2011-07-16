@@ -1,0 +1,97 @@
+!SESSION 2011-07-16 10:38:28.953 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_26
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2011-07-16 10:38:53.500
+!MESSAGE No search provider was registed. Tasks search is not available.
+
+!ENTRY org.python.pydev.core 1 1 2011-07-16 10:41:38.125
+!MESSAGE Information about process of adding new interpreter:
+- Opening dialog to request executable (or jar).
+- Chosen interpreter (name and file):'Tuple [py27 -- D:\Python27\python.exe]
+- Ok, file is non-null. Getting info on:D:\Python27\python.exe
+- Beggining task:Getting libs totalWork:100
+- Setting task name:Mounting executable string...
+- Setting task name:Executing:  D:\Python27\python.exe -u D:\eclipse\plugins\org.python.pydev_2.2.1.2011071313\PySrc\interpreterInfo.py
+- Setting task name:Making pythonpath environment... D:\Python27\python.exe -u D:\eclipse\plugins\org.python.pydev_2.2.1.2011071313\PySrc\interpreterInfo.py
+- Setting task name:Making exec... D:\Python27\python.exe -u D:\eclipse\plugins\org.python.pydev_2.2.1.2011071313\PySrc\interpreterInfo.py
+- Setting task name:Reading output...
+- Setting task name:Waiting for process to finish.
+- Success getting the info. Result:Name:py27:EndName:Version2.7Executable:D:\Python27\python.exe|D:\Python27\DLLs|D:\Python27\lib|D:\Python27\lib\plat-win|D:\Python27\lib\lib-tk|D:\Python27|D:\Python27\lib\site-packages@$|Image|OpenGL|__builtin__|__main__|_ast|_bisect|_bytesio|_codecs|_codecs_cn|_codecs_hk|_codecs_iso2022|_codecs_jp|_codecs_kr|_codecs_tw|_collections|_csv|_fileio|_functools|_heapq|_hotshot|_io|_json|_locale|_lsprof|_md5|_multibytecodec|_random|_sha|_sha256|_sha512|_sre|_struct|_subprocess|_symtable|_warnings|_weakref|_winreg|array|audioop|binascii|cPickle|cStringIO|cmath|datetime|email|errno|exceptions|future_builtins|gc|hashlib|imageop|imp|itertools|marshal|math|mmap|msvcrt|nt|numpy|operator|os|os.path|parser|pytest|scipy|signal|socket|strop|sys|thread|time|wx|wxPython|xxsubtype|zipimport|zlib
+
+
+!ENTRY org.python.pydev.core 1 1 2011-07-16 10:41:39.781
+!MESSAGE Restoring info for: D:\Python27\python.exe
+!STACK 0
+java.lang.RuntimeException: Restoring info for: D:\Python27\python.exe
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:492)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.internalRecreateCacheGetInterpreterInfos(AbstractInterpreterManager.java:327)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.setInfos(AbstractInterpreterManager.java:603)
+	at org.python.pydev.ui.pythonpathconf.AbstractInterpreterPreferencesPage$3.run(AbstractInterpreterPreferencesPage.java:257)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.io.IOException: Expecting: D:\git\cyan\.metadata\.plugins\org.python.pydev\v1_32jisk5jx1oeuhf8ucv5rvrxu\modulesKeys to exist (and be a file).
+	at org.python.pydev.editor.codecompletion.revisited.ModulesManager.loadFromFile(ModulesManager.java:233)
+	at org.python.pydev.editor.codecompletion.revisited.SystemModulesManager.load(SystemModulesManager.java:369)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpretersFromPersistedString(AbstractInterpreterManager.java:490)
+	... 4 more
+
+!ENTRY org.python.pydev.core 1 1 2011-07-16 10:41:40.312
+!MESSAGE Finished restoring information for: D:\Python27\python.exe at: D:\git\cyan\.metadata\.plugins\org.python.pydev\v1_32jisk5jx1oeuhf8ucv5rvrxu
+
+!ENTRY org.python.pydev.core 1 1 2011-07-16 10:42:37.500
+!MESSAGE Expected IO issue (version changed or validation not ok): properly handled.
+!STACK 0
+java.io.IOException: Expecting: D:\git\cyan\.metadata\.plugins\org.eclipse.core.resources\.projects\python-codes\org.python.pydev\v1_astmanager\modulesKeys to exist (and be a file).
+	at org.python.pydev.editor.codecompletion.revisited.ModulesManager.loadFromFile(ModulesManager.java:233)
+	at org.python.pydev.editor.codecompletion.revisited.ASTManager.loadFromFile(ASTManager.java:106)
+	at org.python.pydev.plugin.nature.PythonNature.init(PythonNature.java:548)
+	at org.python.pydev.plugin.nature.PythonNature.setProject(PythonNature.java:309)
+	at org.eclipse.core.internal.resources.NatureManager.createNature(NatureManager.java:234)
+	at org.eclipse.core.internal.resources.NatureManager$1.run(NatureManager.java:143)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.resources.NatureManager.configureNature(NatureManager.java:159)
+	at org.eclipse.core.internal.resources.NatureManager.configureNatures(NatureManager.java:205)
+	at org.eclipse.core.internal.resources.Project.basicSetDescription(Project.java:102)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1347)
+	at org.eclipse.core.internal.resources.Project.setDescription(Project.java:1376)
+	at org.python.pydev.plugin.nature.PythonNature.addNature(PythonNature.java:418)
+	at org.python.pydev.plugin.PyStructureConfigHelpers.createPydevProject(PyStructureConfigHelpers.java:172)
+	at org.python.pydev.plugin.PyStructureConfigHelpers.createPydevProject(PyStructureConfigHelpers.java:56)
+	at org.python.pydev.ui.wizards.project.PythonProjectWizard.createAndConfigProject(PythonProjectWizard.java:204)
+	at org.python.pydev.ui.wizards.project.PythonProjectWizard$1.execute(PythonProjectWizard.java:143)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.jface 2 0 2011-07-16 10:45:41.734
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-07-16 10:45:41.734
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Global Tokens (Global),
+		Python Show Global Tokens (Global),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		ActionDelegateHandlerProxy(null,com.python.pydev.analysis.actions.PyGlobalsBrowserWorkbench),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.python.pydev.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.python.pydev.editor.actions.pyShowBrowser,Python Show Global Tokens (Editor),
+		Python Show Global Tokens (Editor),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		ActionDelegateHandlerProxy(null,org.python.pydev.editor.actions.PyShowBrowser),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.python.pydev.ui.editor.scope,,,system)
