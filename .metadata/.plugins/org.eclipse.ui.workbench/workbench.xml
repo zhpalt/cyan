@@ -31,13 +31,18 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="create_files.py" partName="create_files" path="D:/git/cyan_2/python-codes/create_files.py" title="create_files" tooltip="python-codes/create_files.py" workbook="DefaultEditorWorkbook">
+<editor id="org.python.pydev.editor.PythonEditor" name="create_files.py" partName="create_files" path="D:/git/cyan/python-codes/create_files.py" title="create_files" tooltip="python-codes/create_files.py" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python-codes/create_files.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="402" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="336" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="func_arg_lists.py" partName="func_arg_lists" path="D:/git/cyan/python-codes/exercise/func_arg_lists.py" title="func_arg_lists" tooltip="python-codes/exercise/func_arg_lists.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python-codes/exercise/func_arg_lists.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="244" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -116,7 +121,10 @@
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 <view id="org.python.pydev.navigator.view" partName="PyDev Package Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" currentWorkingSetName="Aggregate for window 1310783934734" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
-<expanded IMemento.internal.id="D:/git/cyan_2/python-codes"/>
+<expanded IMemento.internal.id="D:/git/cyan/python-codes"/>
+<expanded IMemento.internal.id="D:/git/cyan/python-codes/exercise"/>
+<expanded IMemento.internal.id="D:/git/cyan/python-codes/pychallenge"/>
+<selected IMemento.internal.id="D:/git/cyan/python-codes/exercise/func_arg_lists.py"/>
 </viewState>
 </view>
 </views>
@@ -407,162 +415,162 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python-codes/test.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python-codes/create_files.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python-codes/exercise/list_comprehensions(推导式).py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python-codes/postgresql/test.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python-codes/factoring/fermat.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python-codes/django/setup.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python-codes/exercise/func_arg_lists.py"/>
 </editors>
-<item historyLabel="test" index="0">
-<position info="not_deleted" x="69" y="0"/>
-</item>
-<item historyLabel="create_files" index="1">
-<position/>
-</item>
-<item historyLabel="list_comprehensions(推导式)" index="2">
+<item historyLabel="list_comprehensions(推导式)" index="1">
 <position info="not_deleted" x="22" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position/>
 </item>
-<item historyLabel="list_comprehensions(推导式)" index="2">
+<item historyLabel="list_comprehensions(推导式)" index="1">
 <position info="not_deleted" x="22" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="478" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="108" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="922" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="928" y="1"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="973" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="814" y="0"/>
 </item>
-<item historyLabel="test" index="3">
+<item historyLabel="test" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="test" index="3">
+<item historyLabel="test" index="2">
 <position info="not_deleted" x="385" y="0"/>
 </item>
-<item historyLabel="test" index="3">
+<item historyLabel="test" index="2">
 <position info="not_deleted" x="369" y="0"/>
 </item>
-<item historyLabel="test" index="3">
+<item historyLabel="test" index="2">
 <position info="not_deleted" x="385" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="814" y="0"/>
 </item>
-<item historyLabel="fermat" index="4">
+<item historyLabel="fermat" index="3">
 <position/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="814" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="867" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="50" y="22"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="74" y="5"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="50" y="22"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="814" y="0"/>
 </item>
-<item historyLabel="fermat" index="4">
+<item historyLabel="fermat" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="814" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="742" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="50" y="22"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="254" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="50" y="22"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="854" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="74" y="5"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="931" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="963" y="10"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="869" y="62"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="91" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="963" y="10"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="869" y="62"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="160" y="47"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="933" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="963" y="10"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="869" y="62"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="655" y="44"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="867" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="867" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="869" y="0"/>
 </item>
-<item historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="48" y="0"/>
 </item>
-<item historyLabel="setup" index="5">
+<item historyLabel="setup" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="create_files" index="1">
+<item historyLabel="create_files" index="0">
 <position info="not_deleted" x="48" y="0"/>
+</item>
+<item historyLabel="create_files" index="0">
+<position info="not_deleted" x="336" y="0"/>
+</item>
+<item active="true" historyLabel="func_arg_lists" index="5">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -582,6 +590,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="func_arg_lists.py" tooltip="python-codes/exercise/func_arg_lists.py">
+<persistable path="/python-codes/exercise/func_arg_lists.py"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="setup.py" tooltip="python-codes/django/setup.py">
 <persistable path="/python-codes/django/setup.py"/>
 </file>
