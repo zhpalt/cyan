@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="38" version="2.0">
 <workbenchAdvisor/>
-<window height="917" width="1354" x="165" y="74">
+<window height="880" width="1354" x="33" y="-2">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
 </fastViewData>
@@ -10,15 +10,15 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="133" y="24"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="135" y="24"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.python.pydev.debug.actionSet" itemType="typeToolBarContribution" x="68" y="24"/>
 <coolItem id="com.python.pydev.navigate.actionSet" itemType="typeToolBarContribution" x="42" y="24"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="133" y="24"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="139" y="24"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="81" y="24"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="81" y="24"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="83" y="24"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="24"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="206" y="24"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.python.pydev.editor.PythonEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -31,18 +31,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.python.pydev.editor.PythonEditor" name="create_files.py" partName="create_files" path="D:/git/cyan/python-codes/create_files.py" title="create_files" tooltip="python-codes/create_files.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python-codes/create_files.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="336" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="func_arg_lists.py" partName="func_arg_lists" path="D:/git/cyan/python-codes/exercise/func_arg_lists.py" title="func_arg_lists" tooltip="python-codes/exercise/func_arg_lists.py" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python-codes/exercise/func_arg_lists.py"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="244" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.python.pydev.editor.PythonEditor" name="test.py" partName="test" path="E:/git/cyan/python-codes/test.py" title="test" tooltip="python-codes/test.py" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/python-codes/test.py"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="261" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -121,10 +116,9 @@
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 <view id="org.python.pydev.navigator.view" partName="PyDev Package Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" currentWorkingSetName="Aggregate for window 1310783934734" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0">
-<expanded IMemento.internal.id="D:/git/cyan/python-codes"/>
-<expanded IMemento.internal.id="D:/git/cyan/python-codes/exercise"/>
-<expanded IMemento.internal.id="D:/git/cyan/python-codes/pychallenge"/>
-<selected IMemento.internal.id="D:/git/cyan/python-codes/exercise/func_arg_lists.py"/>
+<expanded IMemento.internal.id="E:/git/cyan/python-codes"/>
+<expanded IMemento.internal.id="E:/git/cyan/python-codes/pychallenge"/>
+<selected IMemento.internal.id="E:/git/cyan/python-codes/test.py"/>
 </viewState>
 </view>
 </views>
@@ -275,51 +269,73 @@
 <view id="org.eclipse.debug.ui.VariableView"/>
 <view id="org.eclipse.debug.ui.BreakpointView"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7496148" ratioLeft="973" ratioRight="325" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7496148" ratioLeft="973" ratioRight="325" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.6509901" ratioLeft="526" ratioRight="282" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.6509901" ratioLeft="526" ratioRight="282" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@e2580e" ratio="0.47258687" ratioLeft="612" ratioRight="683" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@e2580e" ratio="0.47258687" ratioLeft="612" ratioRight="683" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@543c44" ratio="0.5720588" ratioLeft="389" ratioRight="291" relationship="2" relative="org.eclipse.ui.internal.ViewStack@e2580e">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@543c44" ratio="0.5720588" ratioLeft="389" ratioRight="291" relationship="2" relative="org.eclipse.ui.internal.ViewStack@e2580e">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.44901314" ratioLeft="273" ratioRight="335" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7496148" ratioLeft="973" ratioRight="325" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7496148" ratioLeft="973" ratioRight="325" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@2edea6" ratio="0.65559846" ratioLeft="849" ratioRight="446" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@2edea6" ratio="0.65559846" ratioLeft="849" ratioRight="446" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="649" ratioRight="649" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="649" ratioRight="649" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
@@ -384,7 +400,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.22857143" ratioLeft="296" ratioRight="999" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.ui.editorss" ratio="0.22097379" ratioLeft="295" ratioRight="1040" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.69863015" ratioLeft="561" ratioRight="242" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -416,24 +432,13 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python-codes/create_files.py"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python-codes/exercise/list_comprehensions(推导式).py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python-codes/postgresql/test.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python-codes/factoring/fermat.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python-codes/django/setup.py"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python-codes/exercise/func_arg_lists.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python-codes/create_files.py"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" path="/python-codes/test.py"/>
 </editors>
-<item historyLabel="list_comprehensions(推导式)" index="1">
-<position info="not_deleted" x="22" y="0"/>
-</item>
-<item historyLabel="create_files" index="0">
-<position/>
-</item>
-<item historyLabel="list_comprehensions(推导式)" index="1">
-<position info="not_deleted" x="22" y="0"/>
-</item>
-<item historyLabel="create_files" index="0">
-<position/>
-</item>
 <item historyLabel="create_files" index="0">
 <position info="not_deleted" x="478" y="0"/>
 </item>
@@ -452,22 +457,22 @@
 <item historyLabel="create_files" index="0">
 <position info="not_deleted" x="814" y="0"/>
 </item>
-<item historyLabel="test" index="2">
+<item historyLabel="test" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="test" index="2">
+<item historyLabel="test" index="1">
 <position info="not_deleted" x="385" y="0"/>
 </item>
-<item historyLabel="test" index="2">
+<item historyLabel="test" index="1">
 <position info="not_deleted" x="369" y="0"/>
 </item>
-<item historyLabel="test" index="2">
+<item historyLabel="test" index="1">
 <position info="not_deleted" x="385" y="0"/>
 </item>
 <item historyLabel="create_files" index="0">
 <position info="not_deleted" x="814" y="0"/>
 </item>
-<item historyLabel="fermat" index="3">
+<item historyLabel="fermat" index="2">
 <position/>
 </item>
 <item historyLabel="create_files" index="0">
@@ -488,7 +493,7 @@
 <item historyLabel="create_files" index="0">
 <position info="not_deleted" x="814" y="0"/>
 </item>
-<item historyLabel="fermat" index="3">
+<item historyLabel="fermat" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="create_files" index="0">
@@ -560,7 +565,7 @@
 <item historyLabel="create_files" index="0">
 <position info="not_deleted" x="48" y="0"/>
 </item>
-<item historyLabel="setup" index="4">
+<item historyLabel="setup" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="create_files" index="0">
@@ -569,7 +574,19 @@
 <item historyLabel="create_files" index="0">
 <position info="not_deleted" x="336" y="0"/>
 </item>
-<item active="true" historyLabel="func_arg_lists" index="5">
+<item historyLabel="func_arg_lists" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="func_arg_lists" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="create_files" index="5">
+<position info="not_deleted" x="931" y="0"/>
+</item>
+<item historyLabel="func_arg_lists" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="test" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -590,6 +607,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="test.py" tooltip="python-codes/test.py">
+<persistable path="/python-codes/test.py"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="func_arg_lists.py" tooltip="python-codes/exercise/func_arg_lists.py">
 <persistable path="/python-codes/exercise/func_arg_lists.py"/>
 </file>
@@ -607,9 +627,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="create_files.py" tooltip="python-codes/create_files.py">
 <persistable path="/python-codes/create_files.py"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.python.pydev.editor.PythonEditor" name="test.py" tooltip="python-codes/test.py">
-<persistable path="/python-codes/test.py"/>
 </file>
 </mruList>
 </workbench>

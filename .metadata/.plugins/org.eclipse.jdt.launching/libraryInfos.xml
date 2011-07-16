@@ -19,4 +19,23 @@
 <entry path="D:\Program Files\Java\jre6\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<libraryInfo home="D:\Program Files\java" version="1.6.0_24">
+<bootpath>
+<entry path="D:\Program Files\java\lib\resources.jar"/>
+<entry path="D:\Program Files\java\lib\rt.jar"/>
+<entry path="D:\Program Files\java\lib\sunrsasign.jar"/>
+<entry path="D:\Program Files\java\lib\jsse.jar"/>
+<entry path="D:\Program Files\java\lib\jce.jar"/>
+<entry path="D:\Program Files\java\lib\charsets.jar"/>
+<entry path="D:\Program Files\java\lib\modules\jdk.boot.jar"/>
+<entry path="D:\Program Files\java\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\Program Files\java\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\Program Files\java\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
 </libraryInfos>

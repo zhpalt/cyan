@@ -22,8 +22,8 @@
 		<item value="320" key="DIALOG_WIDTH"/>
 		<item value="com.python.pydev.ui.hierarchy.PyHierarchyView" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
 		<item value="181" key="DIALOG_Y_ORIGIN"/>
-		<item value="420" key="DIALOG_HEIGHT"/>
 		<item value="497" key="DIALOG_X_ORIGIN"/>
+		<item value="420" key="DIALOG_HEIGHT"/>
 		<item value="1|文泉驿微米黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|-122|0|0|0|0|文泉驿微米黑" key="DIALOG_FONT_NAME"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.python.pydev"/>
