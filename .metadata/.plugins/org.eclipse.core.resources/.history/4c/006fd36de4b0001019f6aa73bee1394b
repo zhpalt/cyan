@@ -33,5 +33,5 @@ def main():
         print "[crypt] >>> %s" % crypt
 
 if __name__ == '__main__':
-    print 'è¿™æ˜¯èŽ«å°”æ–¯ç¼–ç ç¨‹åºï¼Œè¾“å…¥ç©ºå­—ç¬¦ä¸²é€€å‡º'
+    print "ÕâÊÇÄª¶ûË¹±àÂë³ÌÐò£¬ÊäÈë¿Õ×Ö·û´®ÍË³ö¡£"
     main()

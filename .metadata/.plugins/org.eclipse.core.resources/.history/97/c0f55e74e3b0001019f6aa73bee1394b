@@ -1,5 +1,3 @@
-# coding=utf-8
-
 morse={'a':'.-', 'b':'-...', 'c':'-.-.', 'd':'-..',
 'e':'.', 'f':'..-.', 'g':'--.', 'h':'....',
 'i':'..', 'j':'.---', 'k':'-.-', 'l':'.-..',
@@ -23,15 +21,8 @@ def morse_h(plain):
             crypt += '[none: ' + n + ']'
     return crypt
 
-def main():
-    while True:
-        print "[plain] <<<",
-        plain = raw_input()
-        if len(plain) == 0:
-            break
-        crypt = morse_h(plain)
-        print "[crypt] >>> %s" % crypt
-
 if __name__ == '__main__':
-    print '这是莫尔斯编码程序，输入空字符串退出'
-    main()
+    print "[plain] <<<",
+    plain = input()
+    crypt = morse_h(plain)
+    print "[crypt] >>>\n%s" % crypt,

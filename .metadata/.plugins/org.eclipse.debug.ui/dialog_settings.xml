@@ -10,12 +10,12 @@
 		<item value=", " key="org.eclipse.debug.ui.EXPANDED_NODES"/>
 		<item value="640" key="DIALOG_HEIGHT"/>
 		<item value="237" key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_1"/>
-		<item value="1|微软雅黑|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
 		<item value="762" key="org.eclipse.debug.ui.DIALOG_SASH_WEIGHTS_2"/>
+		<item value="1|微软雅黑|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.debug.ui.SELECT_LAUNCH_SHORTCUT_DIALOG">
-		<item value="305" key="DIALOG_WIDTH"/>
-		<item value="389" key="DIALOG_HEIGHT"/>
-		<item value="1|微软雅黑|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
+		<item value="336" key="DIALOG_WIDTH"/>
+		<item value="413" key="DIALOG_HEIGHT"/>
+		<item value="1|文泉驿微米黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|-122|0|0|0|0|文泉驿微米黑" key="DIALOG_FONT_NAME"/>
 	</section>
 </section>
