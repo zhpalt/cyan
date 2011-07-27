@@ -840,3 +840,403 @@ Binding(CTRL+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.python.pydev.ui.editor.scope,,,system)
+!SESSION 2011-07-27 18:42:44.109 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_26
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.python.pydev.core 1 1 2011-07-27 18:46:10.953
+!MESSAGE Expected IO issue (version changed or validation not ok): properly handled.
+!STACK 0
+java.io.IOException: No loaded contents from: D:\git\cyan\.metadata\.plugins\org.eclipse.core.resources\.projects\python-codes\org.python.pydev\v1_astmanager\pythonpath
+	at org.python.pydev.editor.codecompletion.revisited.PythonPathHelper.loadFromFile(PythonPathHelper.java:539)
+	at org.python.pydev.editor.codecompletion.revisited.ModulesManager.loadFromFile(ModulesManager.java:266)
+	at org.python.pydev.editor.codecompletion.revisited.ASTManager.loadFromFile(ASTManager.java:106)
+	at org.python.pydev.plugin.nature.PythonNature.init(PythonNature.java:548)
+	at org.python.pydev.plugin.nature.PythonNature.setProject(PythonNature.java:309)
+	at org.eclipse.core.internal.resources.NatureManager.createNature(NatureManager.java:234)
+	at org.eclipse.core.internal.resources.Project.getNature(Project.java:448)
+	at org.python.pydev.plugin.nature.PythonNature.getPythonNature(PythonNature.java:701)
+	at org.python.pydev.editor.PyEdit.getPythonNature(PyEdit.java:1566)
+	at org.python.pydev.editor.PyEdit.getGrammarVersionProvider(PyEdit.java:1546)
+	at org.python.pydev.parser.PyParser.getGrammarProviderFromEdit(PyParser.java:230)
+	at org.python.pydev.parser.PyParser.<init>(PyParser.java:221)
+	at org.python.pydev.parser.PyParserManager.attachParserTo(PyParserManager.java:167)
+	at org.python.pydev.editor.PyEdit.doSetInput(PyEdit.java:825)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3200)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2642)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3218)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3245)
+	at org.python.pydev.editor.PyEdit.init(PyEdit.java:634)
+	at org.eclipse.ui.internal.EditorManager.createSite(EditorManager.java:828)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:647)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1459)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:972)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1595)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY org.eclipse.ui 4 0 2011-07-27 18:46:42.265
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2011-07-27 18:46:42.265
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2011-07-27 18:46:42.265
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2011-07-27 18:46:42.265
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2011-07-27 18:46:42.265
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2011-07-27 18:46:42.265
+!MESSAGE Unable to restore perspective: Workspace - PyDev.
+!SUBENTRY 2 org.eclipse.ui 0 0 2011-07-27 18:46:42.265
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2011-07-27 18:46:42.265
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2011-07-27 18:46:42.265
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-07-27 18:46:42.265
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-07-27 18:46:42.265
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 4 2011-07-27 18:46:42.265
+!MESSAGE Could not create view: org.eclipse.mylyn.tasks.ui.views.tasks
+!STACK 1
+org.eclipse.ui.PartInitException: Could not create view: org.eclipse.mylyn.tasks.ui.views.tasks
+	at org.eclipse.ui.internal.ViewFactory.createView(ViewFactory.java:158)
+	at org.eclipse.ui.internal.Perspective.createReferences(Perspective.java:1249)
+	at org.eclipse.ui.internal.Perspective.restoreState(Perspective.java:1219)
+	at org.eclipse.ui.internal.WorkbenchPage$17.runWithException(WorkbenchPage.java:3293)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1595)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 3 org.eclipse.ui 4 0 2011-07-27 18:46:42.265
+!MESSAGE Could not create view: org.eclipse.mylyn.tasks.ui.views.tasks
+!SUBENTRY 2 unknown 0 0 2011-07-27 18:46:42.265
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-07-27 18:46:42.265
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-07-27 18:46:42.265
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-07-27 18:46:42.265
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-07-27 18:46:42.265
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2011-07-27 18:46:42.265
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2011-07-27 18:46:42.265
+!MESSAGE OK
+
+!ENTRY com.genuitec.eclipse.core 1 0 2011-07-27 18:47:00.218
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-07-27 18:47:04.671
+!MESSAGE Installed snippet library: D:\eclipse\configuration\org.eclipse.osgi\bundles\136\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-07-27 18:47:04.734
+!MESSAGE Installed snippet library: D:\eclipse\configuration\org.eclipse.osgi\bundles\136\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-07-27 18:47:04.765
+!MESSAGE Installed snippet library: D:\eclipse\configuration\org.eclipse.osgi\bundles\136\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-07-27 18:47:04.812
+!MESSAGE Installed snippet library: D:\eclipse\configuration\org.eclipse.osgi\bundles\136\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-07-27 18:47:04.843
+!MESSAGE Installed snippet library: D:\eclipse\configuration\org.eclipse.osgi\bundles\136\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-07-27 18:47:04.875
+!MESSAGE Installed snippet library: D:\eclipse\configuration\org.eclipse.osgi\bundles\136\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-07-27 18:47:04.921
+!MESSAGE Installed snippet library: D:\eclipse\configuration\org.eclipse.osgi\bundles\136\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-07-27 18:47:04.953
+!MESSAGE Installed snippet library: D:\eclipse\configuration\org.eclipse.osgi\bundles\136\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-07-27 18:47:05.000
+!MESSAGE Installed snippet library: D:\eclipse\configuration\org.eclipse.osgi\bundles\136\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-07-27 18:47:05.031
+!MESSAGE Installed snippet library: D:\eclipse\configuration\org.eclipse.osgi\bundles\136\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2011-07-27 18:47:05.062
+!MESSAGE Installed snippet library: D:\eclipse\configuration\org.eclipse.osgi\bundles\136\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.eclipse.ui 4 4 2011-07-27 18:47:05.078
+!MESSAGE Exception in org.eclipse.ui.internal.FolderLayout.addView(String): org.eclipse.ui.PartInitException: View descriptor not found: uky.article.imageviewer.views.ImageView
+
+!ENTRY org.eclipse.ui 4 4 2011-07-27 18:47:05.078
+!MESSAGE Exception in org.eclipse.ui.internal.FolderLayout.addView(String): org.eclipse.ui.PartInitException: View descriptor not found: uky.article.imageviewer.views.ImageView
+!STACK 1
+org.eclipse.ui.PartInitException: View descriptor not found: uky.article.imageviewer.views.ImageView
+	at org.eclipse.ui.internal.FolderLayout.addView(FolderLayout.java:75)
+	at com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory.createInitialLayout(MyEclipsePerspectiveFactory.java:53)
+	at org.eclipse.ui.internal.Perspective.loadPredefinedPersp(Perspective.java:816)
+	at org.eclipse.ui.internal.Perspective.createPresentation(Perspective.java:270)
+	at org.eclipse.ui.internal.Perspective.<init>(Perspective.java:156)
+	at org.eclipse.ui.internal.tweaklets.Workbench3xImplementation.createPerspective(Workbench3xImplementation.java:55)
+	at org.eclipse.ui.internal.WorkbenchPage.createPerspective(WorkbenchPage.java:1748)
+	at org.eclipse.ui.internal.WorkbenchPage.busySetPerspective(WorkbenchPage.java:1108)
+	at org.eclipse.ui.internal.WorkbenchPage.access$16(WorkbenchPage.java:1099)
+	at org.eclipse.ui.internal.WorkbenchPage$19.run(WorkbenchPage.java:3814)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3812)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin.openPerspective(PerspectivePlugin.java:405)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin.access$1(PerspectivePlugin.java:384)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin$3.run(PerspectivePlugin.java:348)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 1 org.eclipse.ui 4 0 2011-07-27 18:47:05.078
+!MESSAGE View descriptor not found: uky.article.imageviewer.views.ImageView
+
+!ENTRY org.eclipse.ui 4 4 2011-07-27 18:47:05.078
+!MESSAGE Exception in org.eclipse.ui.internal.FolderLayout.addView(String): org.eclipse.ui.PartInitException: View descriptor not found: com.genuitec.eclipse.ui.HTMLView
+
+!ENTRY org.eclipse.ui 4 4 2011-07-27 18:47:05.078
+!MESSAGE Exception in org.eclipse.ui.internal.FolderLayout.addView(String): org.eclipse.ui.PartInitException: View descriptor not found: com.genuitec.eclipse.ui.HTMLView
+!STACK 1
+org.eclipse.ui.PartInitException: View descriptor not found: com.genuitec.eclipse.ui.HTMLView
+	at org.eclipse.ui.internal.FolderLayout.addView(FolderLayout.java:75)
+	at com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory.createInitialLayout(MyEclipsePerspectiveFactory.java:63)
+	at org.eclipse.ui.internal.Perspective.loadPredefinedPersp(Perspective.java:816)
+	at org.eclipse.ui.internal.Perspective.createPresentation(Perspective.java:270)
+	at org.eclipse.ui.internal.Perspective.<init>(Perspective.java:156)
+	at org.eclipse.ui.internal.tweaklets.Workbench3xImplementation.createPerspective(Workbench3xImplementation.java:55)
+	at org.eclipse.ui.internal.WorkbenchPage.createPerspective(WorkbenchPage.java:1748)
+	at org.eclipse.ui.internal.WorkbenchPage.busySetPerspective(WorkbenchPage.java:1108)
+	at org.eclipse.ui.internal.WorkbenchPage.access$16(WorkbenchPage.java:1099)
+	at org.eclipse.ui.internal.WorkbenchPage$19.run(WorkbenchPage.java:3814)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.setPerspective(WorkbenchPage.java:3812)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin.openPerspective(PerspectivePlugin.java:405)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin.access$1(PerspectivePlugin.java:384)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin$3.run(PerspectivePlugin.java:348)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:164)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:158)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SUBENTRY 1 org.eclipse.ui 4 0 2011-07-27 18:47:05.078
+!MESSAGE View descriptor not found: com.genuitec.eclipse.ui.HTMLView
+
+!ENTRY org.jboss.tools.common.model 1 0 2011-07-27 18:47:15.500
+!MESSAGE ClassLoaderUtil:activate: Cannot find required plugin org.jboss.tools.jsf.ui
+!SESSION 2011-07-27 18:47:33.921 -----------------------------------------------
+eclipse.buildId=I20110613-1736
+java.version=1.6.0_26
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86 -clean
+
+!ENTRY org.python.pydev.core 1 1 2011-07-27 18:49:01.421
+!MESSAGE Expected IO issue (version changed or validation not ok): properly handled.
+!STACK 0
+java.io.IOException: No loaded contents from: D:\git\cyan\.metadata\.plugins\org.eclipse.core.resources\.projects\python-codes\org.python.pydev\v1_astmanager\pythonpath
+	at org.python.pydev.editor.codecompletion.revisited.PythonPathHelper.loadFromFile(PythonPathHelper.java:539)
+	at org.python.pydev.editor.codecompletion.revisited.ModulesManager.loadFromFile(ModulesManager.java:266)
+	at org.python.pydev.editor.codecompletion.revisited.ASTManager.loadFromFile(ASTManager.java:106)
+	at org.python.pydev.plugin.nature.PythonNature.init(PythonNature.java:548)
+	at org.python.pydev.plugin.nature.PythonNature.setProject(PythonNature.java:309)
+	at org.eclipse.core.internal.resources.NatureManager.createNature(NatureManager.java:234)
+	at org.eclipse.core.internal.resources.Project.getNature(Project.java:448)
+	at org.python.pydev.plugin.nature.PythonNature.getPythonNature(PythonNature.java:701)
+	at org.python.pydev.editor.PyEdit.getPythonNature(PyEdit.java:1566)
+	at org.python.pydev.editor.PyEdit.getGrammarVersionProvider(PyEdit.java:1546)
+	at org.python.pydev.parser.PyParser.getGrammarProviderFromEdit(PyParser.java:230)
+	at org.python.pydev.parser.PyParser.<init>(PyParser.java:221)
+	at org.python.pydev.parser.PyParserManager.attachParserTo(PyParserManager.java:167)
+	at org.python.pydev.editor.PyEdit.doSetInput(PyEdit.java:825)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3200)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:464)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:372)
+	at org.eclipse.jface.window.ApplicationWindow$1.run(ApplicationWindow.java:759)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.window.ApplicationWindow.run(ApplicationWindow.java:756)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2642)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3218)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3245)
+	at org.python.pydev.editor.PyEdit.init(PyEdit.java:634)
+	at org.eclipse.ui.internal.EditorManager.createSite(EditorManager.java:828)
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:647)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:465)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1459)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:972)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$33.runWithException(Workbench.java:1595)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2011-07-27 18:49:23.109
+!MESSAGE Unable to locate .myeclipse.properties file
+
+!ENTRY org.jboss.tools.common.model 1 0 2011-07-27 18:49:29.015
+!MESSAGE ClassLoaderUtil:activate: Cannot find required plugin org.jboss.tools.jsf.ui
+
+!ENTRY org.eclipse.jface 2 0 2011-07-27 18:50:16.640
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-07-27 18:50:16.656
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Global Tokens (Global),
+		Python Show Global Tokens (Global),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		ActionDelegateHandlerProxy(null,com.python.pydev.analysis.actions.PyGlobalsBrowserWorkbench),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.python.pydev.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.python.pydev.editor.actions.pyShowBrowser,Python Show Global Tokens (Editor),
+		Python Show Global Tokens (Editor),
+		Category(org.python.pydev.ui.category.source,PyDev - Editor,PyDev editor category,true),
+		ActionDelegateHandlerProxy(null,org.python.pydev.editor.actions.PyShowBrowser),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.python.pydev.ui.editor.scope,,,system)
